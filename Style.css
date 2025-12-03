@@ -1,0 +1,28 @@
+body {
+    background-image: url("image1.png");
+     background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+}
+
+h1{
+    font-size: large;
+    font-weight: bold;
+    background-position: center;
+    font-size:50px
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(223, 59, 59);
+    text-decoration: none; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 95%;       
+    padding: 10px;    
+  }
+}
